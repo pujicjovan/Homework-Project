@@ -1,0 +1,27 @@
+@page "/calculator"
+
+<h3>Jednostavan Kalkulator</h3>
+
+<div>
+    <label>Prvi broj:</label>
+    <input @bind="firstNumber" type="number" />
+</div>
+<div>
+    <label>Drugi broj:</label>
+    <input @bind="secondNumber" type="number" />
+</div>
+<div>
+    <button @onclick="AddNumbers">Saberi</button>
+</div>
+<h4>Rezultat: @result</h4>
+
+@code {
+    private double firstNumber = 0;
+    private double secondNumber = 0;
+    private double result = 0;
+
+    private void AddNumbers()
+    {
+        result = firstNumber + secondNumber;
+    }
+}
