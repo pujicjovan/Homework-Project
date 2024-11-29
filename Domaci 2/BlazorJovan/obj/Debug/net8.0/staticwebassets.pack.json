@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\MyBlazorApp.styles.css"
     },
     {
+      "Id": "C:\\Users\\jovan\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\wwwroot\\Gibson-Hero-NEW@2560x1625.jpg",
+      "PackagePath": "staticwebassets\\Gibson-Hero-NEW@2560x1625.jpg"
+    },
+    {
       "Id": "C:\\Users\\jovan\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },

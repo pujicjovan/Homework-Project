@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "I0GQ3YEoaH/nYoFI3Dk7oN/JJAllSRlu11btCwhf3qM=",
+  "Hash": "1OROYAH1KnwDhxm0ZnJ6QMOFBkyEBYN6M0cW8gWfL+E=",
   "Source": "MyBlazorApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -7881,6 +7881,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\jovan\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\wwwroot\\Gibson-Hero-NEW@2560x1625.jpg",
+      "SourceId": "MyBlazorApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jovan\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Gibson-Hero-NEW@2560x1625.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Gibson-Hero-NEW@2560x1625.jpg"
     },
     {
       "Identity": "C:\\Users\\jovan\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\wwwroot\\icon-192.png",
