@@ -4,15 +4,15 @@
 
 <p>Koji je tvoj omiljeni brend gitara?</p>
 
-<select @bind="selectedBrand">
+<select @bind="brendGitare">
     <option value="Gibson">Gibson</option>
     <option value="Fender">Fender</option>
     <option value="Ibanez">Ibanez</option>
     <option value="Martin">Martin</option>
 </select>
 
-<p>Tvoj izbor: @selectedBrand</p>
+<p>Tvoj izbor: @brendGitare</p>
 
 @code {
-    private string selectedBrand;
+    private string brendGitare;
 }
