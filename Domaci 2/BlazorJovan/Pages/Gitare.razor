@@ -1,0 +1,18 @@
+@page "/gitare"
+
+<h3>Gitare</h3>
+
+<p>Koji je tvoj omiljeni brend gitara?</p>
+
+<select @bind="selectedBrand">
+    <option value="Gibson">Gibson</option>
+    <option value="Fender">Fender</option>
+    <option value="Ibanez">Ibanez</option>
+    <option value="Martin">Martin</option>
+</select>
+
+<p>Tvoj izbor: @selectedBrand</p>
+
+@code {
+    private string selectedBrand;
+}
