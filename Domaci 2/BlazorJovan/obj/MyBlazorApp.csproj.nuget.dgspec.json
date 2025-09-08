@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jovan\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\MyBlazorApp.csproj": {}
+    "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\MyBlazorApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jovan\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\MyBlazorApp.csproj": {
+    "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\MyBlazorApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jovan\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\MyBlazorApp.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\MyBlazorApp.csproj",
         "projectName": "MyBlazorApp",
-        "projectPath": "C:\\Users\\jovan\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\MyBlazorApp.csproj",
-        "packagesPath": "C:\\Users\\jovan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jovan\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\obj\\",
+        "projectPath": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\MyBlazorApp.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jovan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -55,13 +55,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.11, )",
+              "version": "[8.0.19, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.11, )",
+              "version": "[8.0.19, )",
               "autoReferenced": true
             }
           },
@@ -79,7 +79,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[8.0.11, 8.0.11]"
+              "version": "[8.0.19, 8.0.19]"
             }
           ],
           "frameworkReferences": {
@@ -87,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

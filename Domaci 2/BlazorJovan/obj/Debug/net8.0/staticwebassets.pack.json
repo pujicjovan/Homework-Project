@@ -1,47 +1,47 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\jovan\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\jovan\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\obj\\Debug\\net8.0\\compressed\\2xbnmz8050.gz",
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\obj\\Debug\\net8.0\\compressed\\te5xw2yaag.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\Users\\jovan\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MyBlazorApp.styles.css",
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MyBlazorApp.styles.css",
       "PackagePath": "staticwebassets\\MyBlazorApp.styles.css"
     },
     {
-      "Id": "C:\\Users\\jovan\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\wwwroot\\Gibson-Hero-NEW@2560x1625.jpg",
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\wwwroot\\Gibson-Hero-NEW@2560x1625.jpg",
       "PackagePath": "staticwebassets\\Gibson-Hero-NEW@2560x1625.jpg"
     },
     {
-      "Id": "C:\\Users\\jovan\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\jovan\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\jovan\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\jovan\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\jovan\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\wwwroot\\icon-192.png",
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "C:\\Users\\jovan\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\wwwroot\\index.html",
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\jovan\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\wwwroot\\sample-data\\weather.json",
+      "Id": "C:\\Users\\PC\\OneDrive\\Documents\\GitHub\\Homework-Project\\Domaci 2\\BlazorJovan\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {
