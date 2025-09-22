@@ -4,15 +4,19 @@
 
 <div>
     <label>Prvi broj:</label>
-    <input @bind="firstNumber" type="number" />
+    <input @bind="firstNumber" class="form-control" style="max-width:150px;" type="number" />
 </div>
 <div>
     <label>Drugi broj:</label>
-    <input @bind="secondNumber" type="number" />
+    <input @bind="secondNumber" class="form-control" style="max-width:150px;" type="number" />
 </div>
+<p>
+</p>
 <div>
-    <button @onclick="AddNumbers">Saberi</button>
+    <button class="btn btn-primary btn-lg" @onclick="AddNumbers">Saberi</button>
 </div>
+<p>
+</p>
 <h4>Rezultat: @result</h4>
 
 @code {

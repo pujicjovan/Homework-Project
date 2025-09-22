@@ -1,0 +1,50 @@
+@page "/bacanje_kocke"
+
+<h3>🎲 Pogodi broj</h3>
+
+<p>Zamišljen je broj između 1 i 20. Probaj da ga pogodiš!</p>
+
+<input type="number" @bind="userGuess" class="form-control" style="width:200px; display:inline-block;" />
+<button class="btn btn-primary ms-2" @onclick="CheckGuess">Pogodi</button>
+
+@if (!string.IsNullOrEmpty(message))
+{
+    <p class="mt-3">@message</p>
+}
+
+<button class="btn btn-secondary ms-2" @onclick="NewGame">Nova igra</button>
+
+@code {
+    private int secretNumber;
+    private int userGuess;
+    private string message = "";
+
+    protected override void OnInitialized()
+    {
+        NewGame();
+    }
+
+    private void CheckGuess()
+    {
+        if (userGuess == secretNumber)
+        {
+            message = $"🎉 Pogodio si! Broj je {secretNumber}.";
+        }
+        else if (userGuess < secretNumber)
+        {
+            message = "⬆️ Zamišljeni broj je veći.";
+        }
+        else
+        {
+            message = "⬇️ Zamišljeni broj je manji.";
+        }
+    }
+
+    private void NewGame()
+    {
+        var rnd = new Random();
+        secretNumber = rnd.Next(1, 21); // broj od 1 do 20
+        message = "";
+        userGuess = 0;
+    }
+}
