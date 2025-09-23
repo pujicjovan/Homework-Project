@@ -1,0 +1,49 @@
+@page "/quotes"
+
+<h3>🎭 Random Citat</h3>
+
+<div class="quote-box">
+    <p>@currentQuote</p>
+    <button class="btn btn-primary" @onclick="GetRandomQuote">Novi citat</button>
+</div>
+
+@code {
+    private string currentQuote = "";
+    private Random random = new Random();
+
+    private List<string> quotes = new()
+    {
+        "Ne bojte se neuspeha – to je put do uspeha.",
+        "Svaki dan je nova prilika da se promeni život.",
+        "Najbolji trenutak da se posadi drvo bio je pre 20 godina. Drugi najbolji trenutak je sada.",
+        "Znanje je moć, ali entuzijazam pokreće svet.",
+        "Ako želiš da ideš brzo – idi sam. Ako želiš da ideš daleko – idi sa drugima."
+    };
+
+    protected override void OnInitialized()
+    {
+        GetRandomQuote();
+    }
+
+    private void GetRandomQuote()
+    {
+        int index = random.Next(quotes.Count);
+        currentQuote = quotes[index];
+    }
+}
+
+<style>
+    .quote-box {
+        margin-top: 20px;
+        padding: 20px;
+        border-radius: 12px;
+        background: linear-gradient(135deg, #e0eafc, #cfdef3);
+        text-align: center;
+        font-size: 1.2rem;
+        box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .btn {
+        margin-top: 15px;
+    }
+</style>
