@@ -15,7 +15,7 @@ p {
 }
 
 .hero-section {
-    background: linear-gradient(120deg, #6a11cb, #2575fc);
+    background: linear-gradient(120deg, #ffe159, #7977ff);
     padding: 60px 0;
     color: white;
     text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -50,11 +50,21 @@ p {
 .gallery-item p {
     margin-top: 8px;
     font-weight: 400;
-    color: #6a11cb;
+    color: #6b11cb;
+}
+
+.movie-item img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);  
+}
+
+.movie-item img {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
 }
 
 footer {
     background: #333;
-    color: rgb(140, 30, 204);
+    color: rgb(255, 255, 255);
     font-size: 0.9rem;
 }
